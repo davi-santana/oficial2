@@ -7,8 +7,8 @@ class Book:
         # self.cursor
 
     def book(self, book_id, title, author, publishing_company, publication_year):
-        self.connection.execute("INSERT INTO book VALUES (NULL, '{user_id}', '{title}', '{author}', '{publishing_company}', '{publication_year}')".format(
-            book_id=book_id,title=title, author=author, publishing_company=publishing_company, publication_year=publication_year))
+        self.connection.execute("INSERT INTO book VALUES ('{book_id}', '{title}', '{author}', '{publishing_company}', '{publication_year}')".format(
+            book_id=book_id, title=title, author=author, publishing_company=publishing_company, publication_year=publication_year))
         self.connection.commit()
 
         
