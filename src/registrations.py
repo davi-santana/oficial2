@@ -6,7 +6,7 @@ from book_shelf import Book_Shelf
 
 # user1 = User().user(user_id=1, name='Davi Santana Araujo', email='davisantana48@gmail.com')
 
-#                ************  ************
+#                ************ register books ************
 # book1 = Book().book(book_id=1, title='A guerra dos tronos', author='George R. R. Martin',
 #                     publishing_company='Bantam Books', publication_year=1996)
 
@@ -28,7 +28,8 @@ from book_shelf import Book_Shelf
 # book7 = Book().book(book_id=7, title='Por quem os Sinos Dobram', author='Ernest Hemingway',
 #                     publishing_company='Lisboa', publication_year=1940)
 
-#************ BookShelf ************
+#                     ************ BookShelf ************
+
 # bookshelf1 = Book_Shelf().book_shelf(
 #     id=1, user_id=1, book_id=1, acquisition_year=2021, was_read=1, reading_date='2021-24-05')
 
